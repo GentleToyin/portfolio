@@ -34,7 +34,10 @@ const Footer = () => {
     });
   };
   return (
-    <div style={{ width: "100%", overflow: "hidden" }}>
+    <div
+      style={{ width: "100%", overflow: "hidden", marginTop: "40px" }}
+      id="contact"
+    >
       <h2 className="head-text">Take a coffee & chat with me</h2>
       <div className="app__footer-cards">
         <div className="app__footer-card">

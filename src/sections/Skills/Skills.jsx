@@ -75,7 +75,7 @@ const Skills = () => {
   ];
   return (
     <>
-      <h2 className="head-text">
+      <h2 className="head-text" id="skills">
         {" "}
         My Current <span>Skills</span>
       </h2>

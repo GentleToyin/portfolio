@@ -8,34 +8,41 @@ const Work = () => {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
   const works = [
     {
-      title: "Frontend Development",
-      description: "I am a solution driven frontend developer",
-      imgUrl: images.about03,
-      projectLink: "",
+      title: "Etiaba",
+      description: "Simplified finance tool to manage your business",
+      imgUrl: images.etiaba,
+      projectLink: "https://etiaba.com/",
     },
     {
-      title: "App Development",
-      description: "I am a solution driven app developer",
-      imgUrl: images.about02,
-      projectLink: "",
+      title: "Etiaba App",
+      description: "Simplified finance tool to manage your business",
+      imgUrl: images.etiabaapp,
+      projectLink: "https://app.etiaba.com/",
     },
     {
-      title: "App Development",
-      description: "I am a solution driven app developer",
-      imgUrl: images.about02,
-      projectLink: "",
+      title: "Playshaka",
+      description: "Entertaiment platform for rich African contents",
+      imgUrl: images.playshaka,
+      projectLink: "https://playshaka.online",
     },
     {
-      title: "App Development",
-      description: "I am a solution driven app developer",
-      imgUrl: images.about02,
-      projectLink: "",
+      title: "Admin Dashboard",
+      description: "Admin Dashboard Template",
+      imgUrl: images.adminDash,
+      projectLink: "https://gt-admin-dashboard.netlify.app/",
+    },
+    {
+      title: "Face Recognition",
+      description:
+        "A webapp that uses AI to detect face(s) from uploaded images",
+      imgUrl: images.facerecog,
+      projectLink: "https://gt-facerecognition.netlify.app/",
     },
   ];
   return (
     <>
       {" "}
-      <h2 className="head-text">
+      <h2 className="head-text" id="work">
         {" "}
         My <span>Portfolio</span> Section
       </h2>
